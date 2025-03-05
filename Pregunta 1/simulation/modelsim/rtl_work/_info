@@ -1,0 +1,119 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/simulation/modelsim
+vBcdTo7Segment
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1741191441
+!i10b 1
+!s100 T:bAmYn?:X>ji=@Bd^:Pg2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;jRemDl83KWXidHf@WgJ]1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1732287516
+8C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/BcdTo7Segment.sv
+FC:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/BcdTo7Segment.sv
+!i122 1
+L0 1 21
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1741191441.000000
+!s107 C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/BcdTo7Segment.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder|C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/BcdTo7Segment.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder
+Z10 tCvgOpt 0
+n@bcd@to7@segment
+vDecoderToBcd
+R1
+R2
+!i10b 1
+!s100 8@7HLi_44_2QV0PCBEURk3
+R3
+ILKUi9lVh<I=Vaz3XVU7Lo3
+R4
+S1
+R0
+w1741191410
+8C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/DecoderToBcd.sv
+FC:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/DecoderToBcd.sv
+!i122 0
+L0 1 19
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/DecoderToBcd.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder|C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/DecoderToBcd.sv|
+!i113 1
+R8
+R9
+R10
+n@decoder@to@bcd
+vTopLevel
+R1
+R2
+!i10b 1
+!s100 TTY2T9S8j0f_;P4d`TnYb2
+R3
+Iz4b=I<=G=REC<NM5WVb:K3
+R4
+S1
+R0
+R5
+8C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel.sv
+FC:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel.sv
+!i122 2
+L0 1 27
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder|C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel.sv|
+!i113 1
+R8
+R9
+R10
+n@top@level
+vTopLevel_tb
+R1
+R2
+!i10b 1
+!s100 >B0nl:k@LFB7AC7GFC7o;3
+R3
+IGj<RG<RFGDfhOj`aFeo@A1
+R4
+S1
+R0
+R5
+8C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel_tb.sv
+FC:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel_tb.sv
+!i122 3
+L0 1 59
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder|C:/Users/YITAN/OneDrive/Escritorio/TDD_Docs_II2024/jtenorio_aflores_klobo_digital_design_lab_2024-master/Laboratorio_1/TDD_P1_Decoder/TopLevel_tb.sv|
+!i113 1
+R8
+R9
+R10
+n@top@level_tb
