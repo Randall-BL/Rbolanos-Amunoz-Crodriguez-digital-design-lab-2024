@@ -1,0 +1,177 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/simulation/modelsim
+Efulladdermodule
+Z1 w1741191949
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule.vhd
+Z5 FC:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule.vhd
+l0
+L4 1
+VjnBJaJLmDaNhR8hk]1L2K1
+!s100 i7KdKGn]<[KCbo8bD@X<N2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1741465964
+!i10b 1
+Z8 !s108 1741465964.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule.vhd|
+Z10 !s107 C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Afulladdermodulefourbits
+R2
+R3
+DEx4 work 15 fulladdermodule 0 22 jnBJaJLmDaNhR8hk]1L2K1
+!i122 1
+l46
+L18 55
+VAejWIoh_8[A7lTFI;G5@52
+!s100 M9Nn<]^`zO8E=e;V:UT8S2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efulladdermodule_tb
+Z13 w1741192406
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 3
+R0
+Z15 8C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule_tb.vhd
+Z16 FC:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule_tb.vhd
+l0
+L5 1
+VeUbP=fVBE7E56hENX[b_;0
+!s100 `2g77FM66lbOTh8;YdeTZ0
+R6
+31
+Z17 !s110 1741465965
+!i10b 1
+Z18 !s108 1741465965.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule_tb.vhd|
+!s107 C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 18 fulladdermodule_tb 0 22 eUbP=fVBE7E56hENX[b_;0
+!i122 3
+l38
+L8 96
+V?XPC81KEEfOn`@02@5IFE1
+!s100 ggU`Zdg7OBPz;1Lib2n5P3
+R6
+31
+R17
+!i10b 1
+R18
+R19
+Z20 !s107 C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModule_tb.vhd|
+!i113 1
+R11
+R12
+Efulladdermoduleonebit
+Z21 w1725914960
+R2
+R3
+!i122 0
+R0
+Z22 8C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModuleOneBit.vhd
+Z23 FC:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModuleOneBit.vhd
+l0
+L4 1
+VFH9UCQPkYP2]^R]FST?TI1
+!s100 cf=3B]cB4ZCSZ9lmENnfc1
+R6
+31
+R7
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModuleOneBit.vhd|
+Z25 !s107 C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/fullAdderModuleOneBit.vhd|
+!i113 1
+R11
+R12
+Aonebitmodule
+R2
+R3
+DEx4 work 21 fulladdermoduleonebit 0 22 FH9UCQPkYP2]^R]FST?TI1
+!i122 0
+l15
+L13 8
+V<4J9zIB3]7M`?9ngizz9_3
+!s100 <e]<B?`k>=^a8?;n^2]ed0
+R6
+31
+R7
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Ehex2seg
+R21
+R2
+R3
+!i122 2
+R0
+Z26 8C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/hex2seg.vhd
+Z27 FC:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/hex2seg.vhd
+l0
+L4 1
+VdW>@[4_XjGRgU30H344oi3
+!s100 lYkkL3oICOI2@@F=lJVm^2
+R6
+31
+R17
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/hex2seg.vhd|
+Z29 !s107 C:/Users/Windows11Virtual/Desktop/Laboratorio_1/Laboratorio_1/TDD_P2_Sumador/hex2seg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 7 hex2seg 0 22 dW>@[4_XjGRgU30H344oi3
+!i122 2
+l12
+L10 24
+V=kQC1G0lW9[g[[i:9EFcY2
+!s100 E`gdA:0V0?MDLGBf=HDc>1
+R6
+31
+R17
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12
