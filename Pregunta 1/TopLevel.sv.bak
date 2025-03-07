@@ -6,7 +6,7 @@ module TopLevel(
 
   wire [7:0] bcd;  // Vector BCD de 8 bits
 
-  // Instancia del módulo DecoderToBcd
+  // Instancia del módule DecoderToBcd
   DecoderToBcd decoder (in, bcd);
 
   // Instancia del módulo BcdTo7Segment para el dígito menos significativo

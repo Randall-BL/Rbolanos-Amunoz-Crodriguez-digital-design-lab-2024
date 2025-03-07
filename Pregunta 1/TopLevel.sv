@@ -1,4 +1,5 @@
 module TopLevel(
+		
     input [3:0] in,  // vector entrada
     output [6:0] seg1,  // Vector de 7 segmentos para el dígito más significativo
     output [6:0] seg0   // Vector de 7 segmentos para el dígito menos significativo
@@ -25,3 +26,5 @@ module TopLevel(
   );
 
 endmodule
+
+//Modulo Top Level
