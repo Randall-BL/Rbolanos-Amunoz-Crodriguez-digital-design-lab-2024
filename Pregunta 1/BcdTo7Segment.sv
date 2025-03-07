@@ -19,3 +19,4 @@ module BcdTo7Segment(
     endcase
   end
 endmodule
+//Modulo 7 segmentos

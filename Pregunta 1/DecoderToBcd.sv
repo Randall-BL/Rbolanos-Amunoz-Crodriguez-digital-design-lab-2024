@@ -18,7 +18,7 @@ module DecoderToBcd (
     end
 endmodule
 
-
+//Modulo Decoder
 //El código emplea el modelo de comportamiento mediante el always, cambiando instantaneamente
 //cada salida según la entrada, se describe en alto nivel cómo se debe decodificar
 //sin específicar sus componentes físicos necesarios
