@@ -38,7 +38,7 @@
 
 
 set_global_assignment -name FAMILY "Cyclone V"
-set_global_assignment -name DEVICE 5CGXFC7C7F23C8
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
 set_global_assignment -name TOP_LEVEL_ENTITY fullAdderModule
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:21:29  MARCH 05, 2025"
@@ -63,10 +63,32 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
 set_global_assignment -name EDA_TEST_BENCH_FILE fullAdderModule_tb.vhd -section_id fullAdderModule_tb
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name SYSTEMVERILOG_FILE SystemVerilog1.sv
 set_global_assignment -name VHDL_FILE HEX2Seg.vhd
-set_global_assignment -name SYSTEMVERILOG_FILE fulladdersv_tb.sv
 set_global_assignment -name VHDL_FILE fullAdderModule_tb.vhd
 set_global_assignment -name VHDL_FILE fullAdderModuleOneBit.vhd
 set_global_assignment -name VHDL_FILE fullAdderModule.vhd
+set_location_assignment PIN_AD30 -to B[3]
+set_global_assignment -name BOARD "Cyclone V SoC Development Kit"
+set_location_assignment PIN_AB30 -to A[0]
+set_location_assignment PIN_Y27 -to A[1]
+set_location_assignment PIN_AB28 -to A[2]
+set_location_assignment PIN_AC30 -to A[3]
+set_location_assignment PIN_W25 -to B[0]
+set_location_assignment PIN_V25 -to B[1]
+set_location_assignment PIN_AC28 -to B[2]
+set_location_assignment PIN_AC29 -to Cin
+set_location_assignment PIN_W17 -to seg1[0]
+set_location_assignment PIN_V18 -to seg1[1]
+set_location_assignment PIN_AG17 -to seg1[2]
+set_location_assignment PIN_AG16 -to seg1[3]
+set_location_assignment PIN_AH17 -to seg1[4]
+set_location_assignment PIN_AG18 -to seg1[5]
+set_location_assignment PIN_AH18 -to seg1[6]
+set_location_assignment PIN_AF16 -to seg2[0]
+set_location_assignment PIN_V16 -to seg2[1]
+set_location_assignment PIN_AE16 -to seg2[2]
+set_location_assignment PIN_AD17 -to seg2[3]
+set_location_assignment PIN_AE18 -to seg2[4]
+set_location_assignment PIN_AE17 -to seg2[5]
+set_location_assignment PIN_V17 -to seg2[6]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

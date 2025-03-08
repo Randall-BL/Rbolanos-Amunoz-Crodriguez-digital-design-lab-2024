@@ -8,10 +8,10 @@ B[1] => fullAdderModuleOneBit:cell_2.B
 B[2] => fullAdderModuleOneBit:cell_3.B
 B[3] => fullAdderModuleOneBit:cell_4.B
 Cin => fullAdderModuleOneBit:cell_1.Cin
-S[0] << fullAdderModuleOneBit:cell_1.S
-S[1] << fullAdderModuleOneBit:cell_2.S
-S[2] << fullAdderModuleOneBit:cell_3.S
-S[3] << fullAdderModuleOneBit:cell_4.S
+Sum[0] << fullAdderModuleOneBit:cell_1.Sum
+Sum[1] << fullAdderModuleOneBit:cell_2.Sum
+Sum[2] << fullAdderModuleOneBit:cell_3.Sum
+Sum[3] << fullAdderModuleOneBit:cell_4.Sum
 Cout << fullAdderModuleOneBit:cell_4.Cout
 seg1[0] << HEX2Seg:decoder_1.seg[0]
 seg1[1] << HEX2Seg:decoder_1.seg[1]
@@ -27,63 +27,61 @@ seg2[3] << HEX2Seg:decoder_2.seg[3]
 seg2[4] << HEX2Seg:decoder_2.seg[4]
 seg2[5] << HEX2Seg:decoder_2.seg[5]
 seg2[6] << HEX2Seg:decoder_2.seg[6]
-dp1 << HEX2Seg:decoder_1.dp
-dp2 << HEX2Seg:decoder_2.dp
 
 
 |fullAdderModule|fullAdderModuleOneBit:cell_1
-A => S.IN0
+A => Sum.IN0
 A => Cout.IN0
 A => Cout.IN0
-B => S.IN1
+B => Sum.IN1
 B => Cout.IN1
 B => Cout.IN0
-Cin => S.IN1
+Cin => Sum.IN1
 Cin => Cout.IN1
 Cin => Cout.IN1
-S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |fullAdderModule|fullAdderModuleOneBit:cell_2
-A => S.IN0
+A => Sum.IN0
 A => Cout.IN0
 A => Cout.IN0
-B => S.IN1
+B => Sum.IN1
 B => Cout.IN1
 B => Cout.IN0
-Cin => S.IN1
+Cin => Sum.IN1
 Cin => Cout.IN1
 Cin => Cout.IN1
-S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |fullAdderModule|fullAdderModuleOneBit:cell_3
-A => S.IN0
+A => Sum.IN0
 A => Cout.IN0
 A => Cout.IN0
-B => S.IN1
+B => Sum.IN1
 B => Cout.IN1
 B => Cout.IN0
-Cin => S.IN1
+Cin => Sum.IN1
 Cin => Cout.IN1
 Cin => Cout.IN1
-S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |fullAdderModule|fullAdderModuleOneBit:cell_4
-A => S.IN0
+A => Sum.IN0
 A => Cout.IN0
 A => Cout.IN0
-B => S.IN1
+B => Sum.IN1
 B => Cout.IN1
 B => Cout.IN0
-Cin => S.IN1
+Cin => Sum.IN1
 Cin => Cout.IN1
 Cin => Cout.IN1
-S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -159,7 +157,6 @@ seg[3] <= seg.DB_MAX_OUTPUT_PORT_TYPE
 seg[4] <= seg.DB_MAX_OUTPUT_PORT_TYPE
 seg[5] <= seg.DB_MAX_OUTPUT_PORT_TYPE
 seg[6] <= seg.DB_MAX_OUTPUT_PORT_TYPE
-dp <= <VCC>
 
 
 |fullAdderModule|HEX2Seg:decoder_2
@@ -234,6 +231,5 @@ seg[3] <= seg.DB_MAX_OUTPUT_PORT_TYPE
 seg[4] <= seg.DB_MAX_OUTPUT_PORT_TYPE
 seg[5] <= seg.DB_MAX_OUTPUT_PORT_TYPE
 seg[6] <= seg.DB_MAX_OUTPUT_PORT_TYPE
-dp <= <VCC>
 
 

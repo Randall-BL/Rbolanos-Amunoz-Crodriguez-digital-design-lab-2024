@@ -3,8 +3,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity HEX2Seg is
     Port ( hex : in STD_LOGIC_VECTOR (3 downto 0);
-           seg : out STD_LOGIC_VECTOR (6 downto 0);
-           dp  : out STD_LOGIC);
+           seg : out STD_LOGIC_VECTOR (6 downto 0)
+				);
 end HEX2Seg;
 
 architecture Behavioral of HEX2Seg is
@@ -29,5 +29,4 @@ seg(6 downto 0) <=
            "0000110" when HEX="1110" else--E
            "0001110" when HEX="1111" else--F
            "0000000";       
-dp <= '1';
 end Behavioral;

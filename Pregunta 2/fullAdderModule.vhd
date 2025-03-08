@@ -6,12 +6,11 @@ entity fullAdderModule is
 	A : in STD_LOGIC_VECTOR (3 downto 0);
 	B : in STD_LOGIC_VECTOR (3 downto 0);
 	Cin : in STD_LOGIC;
-	S : buffer STD_LOGIC_VECTOR (3 downto 0);
+	Sum : buffer STD_LOGIC_VECTOR (3 downto 0);
 	Cout : buffer STD_LOGIC;
 	seg1: out STD_LOGIC_VECTOR (6 downto 0);
-	seg2: out STD_LOGIC_VECTOR (6 downto 0);
-	dp1: out STD_LOGIC;
-	dp2: out STD_LOGIC);
+	seg2: out STD_LOGIC_VECTOR (6 downto 0)
+	);
 	
 end fullAdderModule;
  
@@ -22,7 +21,7 @@ architecture fullAdderModuleFourBits of fullAdderModule is
         A: in std_logic;
         B: in std_logic;
         Cin: in std_logic;
-        S: buffer std_logic;
+        Sum: buffer std_logic;
         Cout: buffer std_logic
       );
     end component;
@@ -32,8 +31,7 @@ architecture fullAdderModuleFourBits of fullAdderModule is
   
 		port(
 		hex : in STD_LOGIC_VECTOR (3 downto 0);
-		seg : out STD_LOGIC_VECTOR (6 downto 0);
-		dp : out STD_LOGIC
+		seg : out STD_LOGIC_VECTOR (6 downto 0)
 		);
 		
 	end component;
@@ -46,25 +44,25 @@ architecture fullAdderModuleFourBits of fullAdderModule is
   begin
   
     cell_1: fullAdderModuleOneBit
-      port map (A(0), B(0), Cin, S(0), i_carry(0));
+      port map (A(0), B(0), Cin, Sum(0), i_carry(0));
 
     cell_2: fullAdderModuleOneBit
-      port map (A(1), B(1), i_carry(0), S(1), i_carry(1));
+      port map (A(1), B(1), i_carry(0), Sum(1), i_carry(1));
 
     cell_3: fullAdderModuleOneBit
-      port map (A(2), B(2), i_carry(1), S(2), i_carry(2));
+      port map (A(2), B(2), i_carry(1), Sum(2), i_carry(2));
 
     cell_4: fullAdderModuleOneBit
-      port map (A(3), B(3), i_carry(2), S(3), Cout);
+      port map (A(3), B(3), i_carry(2), Sum(3), Cout);
 		
 		carryOut(0) <= Cout;
 		
 		
 	 decoder_1: HEX2Seg
-		port map (S, seg1, dp1);
+		port map (Sum, seg1);
 		
 	 decoder_2: HEX2Seg
-		port map (carryOut, seg2, dp2);
+		port map (carryOut, seg2);
 		
 	 
 		
