@@ -13,20 +13,20 @@ Sum[1] << fullAdderModuleOneBit:cell_2.Sum
 Sum[2] << fullAdderModuleOneBit:cell_3.Sum
 Sum[3] << fullAdderModuleOneBit:cell_4.Sum
 Cout << fullAdderModuleOneBit:cell_4.Cout
-seg1[0] << HEX2Seg:decoder_1.seg[0]
-seg1[1] << HEX2Seg:decoder_1.seg[1]
-seg1[2] << HEX2Seg:decoder_1.seg[2]
-seg1[3] << HEX2Seg:decoder_1.seg[3]
-seg1[4] << HEX2Seg:decoder_1.seg[4]
-seg1[5] << HEX2Seg:decoder_1.seg[5]
-seg1[6] << HEX2Seg:decoder_1.seg[6]
-seg2[0] << HEX2Seg:decoder_2.seg[0]
-seg2[1] << HEX2Seg:decoder_2.seg[1]
-seg2[2] << HEX2Seg:decoder_2.seg[2]
-seg2[3] << HEX2Seg:decoder_2.seg[3]
-seg2[4] << HEX2Seg:decoder_2.seg[4]
-seg2[5] << HEX2Seg:decoder_2.seg[5]
-seg2[6] << HEX2Seg:decoder_2.seg[6]
+seg1[0] <= HEX2Seg:decoder_1.seg[0]
+seg1[1] <= HEX2Seg:decoder_1.seg[1]
+seg1[2] <= HEX2Seg:decoder_1.seg[2]
+seg1[3] <= HEX2Seg:decoder_1.seg[3]
+seg1[4] <= HEX2Seg:decoder_1.seg[4]
+seg1[5] <= HEX2Seg:decoder_1.seg[5]
+seg1[6] <= HEX2Seg:decoder_1.seg[6]
+seg2[0] <= HEX2Seg:decoder_2.seg[0]
+seg2[1] <= HEX2Seg:decoder_2.seg[1]
+seg2[2] <= HEX2Seg:decoder_2.seg[2]
+seg2[3] <= HEX2Seg:decoder_2.seg[3]
+seg2[4] <= HEX2Seg:decoder_2.seg[4]
+seg2[5] <= HEX2Seg:decoder_2.seg[5]
+seg2[6] <= HEX2Seg:decoder_2.seg[6]
 
 
 |fullAdderModule|fullAdderModuleOneBit:cell_1

@@ -1,5 +1,5 @@
 Flow report for fullAdderModule
-Sun Mar  9 15:51:05 2025
+Sun Mar  9 20:53:33 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Sun Mar  9 15:51:04 2025          ;
+; Flow Status                 ; Successful - Sun Mar  9 20:53:33 2025          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; fullAdderModule                                ;
 ; Top-level Entity Name       ; fullAdderModule                                ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/09/2025 15:50:56 ;
+; Start date & time ; 03/09/2025 20:53:20 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; fullAdderModule     ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 8796760745121.174155705612768          ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 8796760745121.174157520005904          ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; fullAdderModule_tb                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -103,8 +103,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4868 MB             ; 00:00:15                           ;
-; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:15                           ;
+; Analysis & Elaboration ; 00:00:14     ; 1.0                     ; 4868 MB             ; 00:00:16                           ;
+; Total                  ; 00:00:14     ; --                      ; --                  ; 00:00:16                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

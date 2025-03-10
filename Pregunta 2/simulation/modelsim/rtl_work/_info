@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/simulation/modelsim
 Efulladdermodule
-Z1 w1741555861
+Z1 w1741558025
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 2
@@ -23,9 +23,9 @@ VFOQ6B6K<JIMk72eak_YbW3
 !s100 @V;Y0H]?ce1QK5Flj:;7F2
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1741557291
+Z7 !s110 1741575234
 !i10b 1
-Z8 !s108 1741557291.000000
+Z8 !s108 1741575234.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModule.vhd|
 Z10 !s107 C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModule.vhd|
 !i113 1
@@ -51,7 +51,7 @@ R10
 R11
 R12
 Efulladdermodule_tb
-Z13 w1741555894
+Z13 w1741575198
 Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R2
 R3
@@ -80,9 +80,9 @@ R3
 DEx4 work 18 fulladdermodule_tb 0 22 eUbP=fVBE7E56hENX[b_;0
 !i122 3
 l34
-L8 88
-VSYkUOVS@JNizkz7R1Wz0o1
-!s100 ;CKcdAWaYoXE7F2gMmkJ>1
+L8 182
+VSVoKfbHQZjWD=PI8f>nO:2
+!s100 jEBglFLT2hi67kNWBz8`?1
 R6
 31
 R7
@@ -94,24 +94,24 @@ Z18 !s107 C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-d
 R11
 R12
 Efulladdermoduleonebit
-Z19 w1741554795
+R1
 R2
 R3
 !i122 1
 R0
-Z20 8C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd
-Z21 FC:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd
+Z19 8C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd
+Z20 FC:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd
 l0
 L4 1
 V];k>>bUE^z_P?o;6Y:CB:0
 !s100 7o>dmzc<C`4LGE[nL[W@C3
 R6
 31
-R7
+Z21 !s110 1741575233
 !i10b 1
-R8
-Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd|
-Z23 !s107 C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd|
+Z22 !s108 1741575233.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd|
+Z24 !s107 C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/fullAdderModuleOneBit.vhd|
 !i113 1
 R11
 R12
@@ -126,11 +126,11 @@ VkWeMFAB@aSk=]EKDh@2MP3
 !s100 8HB60zejh4=L86PXOHeh31
 R6
 31
-R7
+R21
 !i10b 1
-R8
 R22
 R23
+R24
 !i113 1
 R11
 R12
@@ -140,19 +140,19 @@ R2
 R3
 !i122 0
 R0
-Z24 8C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd
-Z25 FC:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd
+Z25 8C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd
+Z26 FC:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd
 l0
 L4 1
 Vz_2=W4Q3?foKjJM[li8:50
 !s100 >c0=B7<jd@GTADzA5MZNH3
 R6
 31
-R7
+R21
 !i10b 1
-R8
-Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd|
-Z27 !s107 C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd|
+R22
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd|
+Z28 !s107 C:/Users/Windows11Virtual/Desktop/Rbolanos-Amunoz-Crodriguez-digital-design-lab-2024/Pregunta 2/HEX2Seg.vhd|
 !i113 1
 R11
 R12
@@ -167,11 +167,11 @@ V=i=PbzOG12:_3Jjb@iMkP0
 !s100 [f`hcSz@zL?[;<FojM0HT3
 R6
 31
-R7
+R21
 !i10b 1
-R8
-R26
+R22
 R27
+R28
 !i113 1
 R11
 R12

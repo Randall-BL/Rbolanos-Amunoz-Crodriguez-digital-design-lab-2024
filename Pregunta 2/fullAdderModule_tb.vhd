@@ -49,6 +49,8 @@ BEGIN
   begin
 
     -- Estímulos de prueba con impresión
+	 
+	 --Caso 1
     A <= "0001"; B <= "0011"; wait for 10 ns;
     report "A=" & integer'image(to_integer(unsigned(A))) &
            ", B=" & integer'image(to_integer(unsigned(B))) &
@@ -58,7 +60,8 @@ BEGIN
                      std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
            ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
                      std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
-
+							
+    --Caso 2
     A <= "0110"; B <= "0010"; wait for 10 ns;
     report "A=" & integer'image(to_integer(unsigned(A))) &
            ", B=" & integer'image(to_integer(unsigned(B))) &
@@ -69,6 +72,7 @@ BEGIN
            ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
                      std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
 
+	 --Caso 3
     A <= "1100"; B <= "0101"; wait for 10 ns;
     report "A=" & integer'image(to_integer(unsigned(A))) &
            ", B=" & integer'image(to_integer(unsigned(B))) &
@@ -78,7 +82,8 @@ BEGIN
                      std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
            ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
                      std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
-
+	
+	--Caso 4
     A <= "1111"; B <= "0001"; wait for 10 ns;
     report "A=" & integer'image(to_integer(unsigned(A))) &
            ", B=" & integer'image(to_integer(unsigned(B))) &
@@ -88,6 +93,95 @@ BEGIN
                      std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
            ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
                      std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
+							
+	--Caso 5
+	 A <= "1101"; B <= "0101"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
+	
+	--Caso 6
+	 A <= "0110"; B <= "1101"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
+	
+	--Caso 7
+	 A <= "0101"; B <= "0101"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
+	
+	--Caso 8
+    A <= "1101"; B <= "1111"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));	
+	
+	--Caso 9
+    A <= "0111"; B <= "1001"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));	
+	
+	--Caso 10
+    A <= "1001"; B <= "0100"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));	
+	
+	--Caso 11
+    A <= "1001"; B <= "0111"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));	
+	
+	--Caso 12
+    A <= "1111"; B <= "1111"; wait for 10 ns;
+    report "A=" & integer'image(to_integer(unsigned(A))) &
+           ", B=" & integer'image(to_integer(unsigned(B))) &
+           ", Sum=" & integer'image(to_integer(unsigned(Sum))) &
+           ", Cout=" & std_logic'image(Cout) &
+           ", seg1=" & std_logic'image(seg1(6)) & std_logic'image(seg1(5)) & std_logic'image(seg1(4)) &
+                     std_logic'image(seg1(3)) & std_logic'image(seg1(2)) & std_logic'image(seg1(1)) & std_logic'image(seg1(0)) &
+           ", seg2=" & std_logic'image(seg2(6)) & std_logic'image(seg2(5)) & std_logic'image(seg2(4)) &
+                     std_logic'image(seg2(3)) & std_logic'image(seg2(2)) & std_logic'image(seg2(1)) & std_logic'image(seg2(0));
+							
 
     A <= "0000"; B <= "0000"; wait;
   end process;
