@@ -4,7 +4,7 @@ module TopLevel_tb();
   wire [6:0] seg1;
   wire [6:0] seg0;
 
-  // Instancia del módulo top-level
+  // Instancia del módulo top-leve
   TopLevel uut (in, seg1, seg0);
 
   initial begin
